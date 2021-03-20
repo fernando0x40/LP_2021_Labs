@@ -1,6 +1,6 @@
 "use strict";
 
-const Planetas = Object.freeze({1:'Mercúrio',2:'Vênus',3:'Marte',4:'Júpiter',5:'Saturno',6:'Urano',7:'Netuno'});
+const Planetas = ['Not a Planet','Mercúrio','Vênus','Marte','Júpiter','Saturno','Urano','Netuno'];
 const Gravidades =  Object.freeze({'Mercúrio':0.37,'Vênus':0.88,'Marte':0.38,'Júpiter':2.64,'Saturno':1.15,'Urano':1.17,'Netuno':1.18});
 
 console.log('Insira um peso de um objeto em Newtons:');
