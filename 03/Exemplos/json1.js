@@ -1,10 +1,10 @@
-let user = {
+let student = {
   name: "John",
   age: 30,
-
-  toString(){
-    return `{name: "${this.name}", age: ${this.age}}`;
-  }
+  isAdmin: false,
+  courses: ['html', 'css', 'js']
 };
 
-console.log(user.toString());
+let json = JSON.stringify(student);
+console.log(typeof json);
+console.log(json);
