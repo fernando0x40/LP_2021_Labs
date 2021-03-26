@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <input type="button" name="jujupita" value="Clique" id="elem">
+
+  <script type="text/javascript">
+    elem.onclick = function(event) {
+      // Mostra o tipo de evento, elemento e coordenadas do clique
+      alert(event.type + " no " + event.currentTarget);
+      alert('Coordenadas: ' + event.clientX + ':' + event.clientY);
+    };
+  </script>
+
+</body>
+
+</html>

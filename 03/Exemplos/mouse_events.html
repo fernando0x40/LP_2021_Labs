@@ -1,0 +1,25 @@
+<!-- Eventos do mouse -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <button id="button">Shift+Click on me!</button>
+
+  <script>
+    button.onclick = function(event) {
+      if (event.shiftKey) {
+        alert('uai');
+      } else {
+        alert('Fail');
+      }
+    }
+  </script>
+
+</body>
+
+</html>

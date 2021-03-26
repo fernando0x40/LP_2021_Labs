@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <input id="elem" type="button" name="jujupa" value="Clique aqui">
+  <script type="text/javascript">
+    // element.addEventListener(event, handler, [options]);
+    // element.removeEventListener(event, handler, [options]);
+    function handlerA() {
+      alert('Vlw');
+    };
+
+    function handlerB() {
+      alert('Eh nóis');
+    };
+
+    elem.onclick = () => alert("Hello");
+    elem.addEventListener("click", handlerA); // Vlw
+    elem.addEventListener("click", handlerB); // Eh nóis
+  </script>
+
+</body>
+
+</html>

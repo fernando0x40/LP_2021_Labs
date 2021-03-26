@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+
+<body>
+
+  <script>
+    alert(document.body.childNodes.filter); // undefined porque childNodes é coleção
+    alert(Array.from(document.body.childNodes).filter); // agora filter funciona
+  </script>
+
+</body>
+
+</html>

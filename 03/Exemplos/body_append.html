@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <!-- 0. Criar a informação de renderização -->
+  <style media="screen">
+    .alert {
+      padding: 15px;
+      border: 1px solid #d6e9c6;
+      border-radius: 4px;
+      color: #3c763d;
+      background-color: #dff0d8;
+    }
+  </style>
+
+  <script type="text/javascript">
+    // 1. Criar o elemento <div>
+    let div = document.createElement('div');
+
+    // 2. Setar sua classe para "alert"
+    div.className = "alert";
+
+    // 3. Encher-la de conteúdo
+    div.innerHTML = "<strong>Olá!</strong> Isso é importante!";
+
+    // 4. inserir-la em algum lugar do documento
+    document.body.append(div);
+    setTimeout(() => div.remove(), 1000);
+  </script>
+</body>
+
+</html>
